@@ -153,6 +153,47 @@ main>section {
     font-size: 4rem;
 }
 
+.architect img {
+    width: 100%;
+}
+
+
+/* Some Facts section related styles */
+.section-description {
+    max-width: 540px;
+}
+
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    justify-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    height: 240px;
+    width: 240px;
+
+    border: 1px solid #FF900E;
+}
+
+.card-number {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.card-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px;
+}
+
 /*  ------media query related style------ */
 
 /* -------mobile------ */
@@ -170,7 +211,8 @@ main>section {
     }
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .features-2 {
         flex-direction: column;
         gap: 15px;
         padding: 0;
@@ -191,10 +233,23 @@ main>section {
         flex-direction: column-reverse;
     }
 
-    .team-images {
+    .team-images,
+    .section-cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
+    }
+
+    /* Features you will love & enjoy section styles */
+
+    #Experience-batch {
+        padding: 35px 50px;
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+
+    .Experience-year {
+        font-size: 2.5rem;
     }
 
 }
