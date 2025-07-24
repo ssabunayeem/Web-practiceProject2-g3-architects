@@ -42,6 +42,11 @@ main>section {
     margin-top: 130px;
 }
 
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
 
 /* ----------------Header styles-------------- */
 
@@ -104,11 +109,6 @@ main>section {
     max-width: 540px;
 }
 
-.features-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-}
-
 #Quick-list {
     font-weight: 500;
 }
@@ -117,7 +117,41 @@ main>section {
     color: rgb(255, 144, 14);
 }
 
-.feature-description {}
+/* Features you will love & enjoy section styles */
+.features-2 {
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-2-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 24px;
+}
+
+.features-2-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#Experience-batch {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.Experience-year {
+    font-size: 4rem;
+}
 
 /*  ------media query related style------ */
 
