@@ -293,6 +293,11 @@ main>section {
 
 
     /* footer styles */
+    .footer {
+
+        margin-top: 50px;
+
+    }
 
     .footer-info {
         padding: 20px 10px;
